@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main',['main',['../main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d',1,'main.f90']]]
+  ['lu_5fand_5fsolve',['lu_and_solve',['../namespacemodule__qlapack.html#a9ea124a3e9101e861a2e122f1829fedf',1,'module_qlapack']]]
 ];
