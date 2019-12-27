@@ -1,20 +1,5 @@
 var searchData=
 [
-  ['a',['a',['../structmodule__autodiff_1_1icj.html#a7c03076a5f87a2f658ad409ca1f4007e',1,'module_autodiff::icj']]],
-  ['acos',['acos',['../interfacemodule__autodiff_1_1acos.html',1,'module_autodiff']]],
-  ['acosd',['acosd',['../interfacemodule__autodiff_1_1acos.html#ab9a270750c5aff8abb279b1ff3a62e28',1,'module_autodiff::acos::acosd()'],['../namespacemodule__autodiff.html#aa84cae54c7604f1a5bd13078e47ec1a7',1,'module_autodiff::acosd()']]],
-  ['addcd',['addcd',['../interfacemodule__autodiff_1_1operator_07_09_08.html#af582bd79cf29b6d0fdc4bc57678c19e8',1,'module_autodiff::operator(+)::addcd()'],['../namespacemodule__autodiff.html#af8cdeb545d64675ba00fac16549964d3',1,'module_autodiff::addcd()']]],
-  ['adddc',['adddc',['../interfacemodule__autodiff_1_1operator_07_09_08.html#aee135b3f76b1319b946b6f96efa8596b',1,'module_autodiff::operator(+)::adddc()'],['../namespacemodule__autodiff.html#a69a0e84a6918acda268843401c00c9ff',1,'module_autodiff::adddc()']]],
-  ['adddd',['adddd',['../interfacemodule__autodiff_1_1operator_07_09_08.html#a23a8669d7e66533933ac54090cca3f32',1,'module_autodiff::operator(+)::adddd()'],['../namespacemodule__autodiff.html#ab3dcd7bce712195f9e32d23fcdbe22a7',1,'module_autodiff::adddd()']]],
-  ['adddr',['adddr',['../interfacemodule__autodiff_1_1operator_07_09_08.html#ac496ff75c4008f0dd5c4a065d5cf856c',1,'module_autodiff::operator(+)::adddr()'],['../namespacemodule__autodiff.html#a29430f33ea23e019f8f45aad057b2c98',1,'module_autodiff::adddr()']]],
-  ['addrd',['addrd',['../interfacemodule__autodiff_1_1operator_07_09_08.html#a6ccd57a292075ca6e0bf2d1d35dfa1fa',1,'module_autodiff::operator(+)::addrd()'],['../namespacemodule__autodiff.html#aa2c7e4cd9ebbc9e4db0c0f3a46272dfc',1,'module_autodiff::addrd()']]],
-  ['aimag',['aimag',['../interfacemodule__autodiff_1_1aimag.html',1,'module_autodiff']]],
-  ['aimagd',['aimagd',['../interfacemodule__autodiff_1_1aimag.html#a24b55499a9607d6160d56a40ae2e6dfd',1,'module_autodiff::aimag::aimagd()'],['../namespacemodule__autodiff.html#a9b23f24eaa1a9066376e9625df5876f9',1,'module_autodiff::aimagd()']]],
-  ['asin',['asin',['../interfacemodule__autodiff_1_1asin.html',1,'module_autodiff']]],
-  ['asind',['asind',['../interfacemodule__autodiff_1_1asin.html#aa8da846b3f68c59857b6b2de358398c0',1,'module_autodiff::asin::asind()'],['../namespacemodule__autodiff.html#ae38c2c20e2cc044b269c70f2ceee299b',1,'module_autodiff::asind()']]],
   ['assemble_5fgauss_5flegendre',['assemble_gauss_legendre',['../namespacemodule__gauss__legendre__quadrature.html#a02f6fa3f9307cc4f6744673edb088f5d',1,'module_gauss_legendre_quadrature']]],
-  ['assemble_5fgauss_5fturan',['assemble_gauss_turan',['../namespacemodule__gauss__turan__quadrature.html#a7b658c32a8ccd0440a85bd0dbad54a42',1,'module_gauss_turan_quadrature']]],
-  ['assignment_28_3d_29',['assignment(=)',['../interfacemodule__autodiff_1_1assignment_07_0A_08.html',1,'module_autodiff']]],
-  ['atan',['atan',['../interfacemodule__autodiff_1_1atan.html',1,'module_autodiff']]],
-  ['atand',['atand',['../interfacemodule__autodiff_1_1atan.html#a1cf9fb48988c9cf600e32642b46c0444',1,'module_autodiff::atan::atand()'],['../namespacemodule__autodiff.html#a5a78572b5aea0ee38a7f67aae0288afb',1,'module_autodiff::atand()']]]
+  ['assemble_5fgauss_5fturan',['assemble_gauss_turan',['../namespacemodule__gauss__turan__quadrature.html#a7b658c32a8ccd0440a85bd0dbad54a42',1,'module_gauss_turan_quadrature']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c',['c',['../structmodule__autodiff_1_1faadibruno.html#a868d13ebce007bee1032d71c768c180b',1,'module_autodiff::faadibruno']]],
-  ['choose',['choose',['../namespacemodule__autodiff.html#aee1b06a0a673f9777503a04e6e502f52',1,'module_autodiff']]],
-  ['cn',['cn',['../structmodule__math_1_1integraltest.html#affa22b8ad1acc4cc0af8dca7804b4c22',1,'module_math::integraltest']]]
+  ['maxngl',['maxngl',['../namespacemodule__gauss__turan__quadrature.html#ab427bc7f3bbbabd8d2cf81d5b0291135',1,'module_gauss_turan_quadrature']]],
+  ['maxngt',['maxngt',['../namespacemodule__gauss__turan__quadrature.html#a8531fa3b2f2d7a68bb67561637d2f1f2',1,'module_gauss_turan_quadrature']]],
+  ['maxs',['maxs',['../namespacemodule__gauss__turan__quadrature.html#a4f5918a4dfc00f91d132372c3a880d80',1,'module_gauss_turan_quadrature']]]
 ];
