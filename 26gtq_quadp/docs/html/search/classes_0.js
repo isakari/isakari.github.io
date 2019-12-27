@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['gausslegendrequadrature',['gausslegendrequadrature',['../structmodule__gauss__turan__quadrature_1_1gausslegendrequadrature.html',1,'module_gauss_turan_quadrature']]],
-  ['gaussturanquadrature',['gaussturanquadrature',['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature.html',1,'module_gauss_turan_quadrature']]],
-  ['gaussturanquadrature2',['gaussturanquadrature2',['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature2.html',1,'module_gauss_turan_quadrature']]]
+  ['acos',['acos',['../interfacemodule__autodiff_1_1acos.html',1,'module_autodiff']]],
+  ['aimag',['aimag',['../interfacemodule__autodiff_1_1aimag.html',1,'module_autodiff']]],
+  ['asin',['asin',['../interfacemodule__autodiff_1_1asin.html',1,'module_autodiff']]],
+  ['assignment_28_3d_29',['assignment(=)',['../interfacemodule__autodiff_1_1assignment_07_0A_08.html',1,'module_autodiff']]],
+  ['atan',['atan',['../interfacemodule__autodiff_1_1atan.html',1,'module_autodiff']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../double_2src_2main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d',1,'main:&#160;main.f90'],['../quad_2src_2main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d',1,'main:&#160;main.f90']]]
+  ['f',['f',['../namespacemodule__math.html#ac40428206d0cfddc6df09be42e4a7a05',1,'module_math']]],
+  ['factorial',['factorial',['../namespacemodule__math.html#a00fa9e7b0e4209e2886f36a35f7447f4',1,'module_math']]]
 ];

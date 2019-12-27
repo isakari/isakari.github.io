@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>gtq_quadp: module_autodiff.f90 ファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">gtq_quadp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="dir_ba96495e18707fc4c8bcdb34c3490fda.html">isakari</a></li><li class="navelem"><a class="el" href="dir_e05f9a4996a405bd94d2ea405802e328.html">Dropbox</a></li><li class="navelem"><a class="el" href="dir_30518d53771eaf97f97e8de66e12a039.html">Works</a></li><li class="navelem"><a class="el" href="dir_229b14368c9b2ccd51505fa6f3496507.html">20ss</a></li><li class="navelem"><a class="el" href="dir_80d0333499c09a5616212d374a94cf5e.html">26gtq_quadp</a></li><li class="navelem"><a class="el" href="dir_677ea6e77ccbef9e3c90fd4e7093d305.html">test</a></li><li class="navelem"><a class="el" href="dir_1365d931f175a97e16d043dac7cc437c.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">データ型</a> &#124;
+<a href="#namespaces">モジュール</a> &#124;
+<a href="#func-members">関数/サブルーチン</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle">
+<div class="title">module_autodiff.f90 ファイル</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a href="module__autodiff_8f90_source.html">[ソースコード]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+データ型</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmodule__autodiff_1_1icj.html">module_autodiff::icj</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmodule__autodiff_1_1faadibruno.html">module_autodiff::faadibruno</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmodule__autodiff_1_1dcomplex8.html">module_autodiff::dcomplex8</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1assignment_07_0A_08.html">module_autodiff::assignment(=)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07_09_08.html">module_autodiff::operator(+)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07_09_08.html">module_autodiff::operator(+)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07-_08.html">module_autodiff::operator(-)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07-_08.html">module_autodiff::operator(-)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07_5_08.html">module_autodiff::operator(*)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07_2_08.html">module_autodiff::operator(/)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1operator_07_5_5_08.html">module_autodiff::operator(**)</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1real.html">module_autodiff::real</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1aimag.html">module_autodiff::aimag</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1conjg.html">module_autodiff::conjg</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1sin.html">module_autodiff::sin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1cos.html">module_autodiff::cos</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1tan.html">module_autodiff::tan</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1sqrt.html">module_autodiff::sqrt</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1log.html">module_autodiff::log</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1log10.html">module_autodiff::log10</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1exp.html">module_autodiff::exp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1sinh.html">module_autodiff::sinh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1cosh.html">module_autodiff::cosh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1tanh.html">module_autodiff::tanh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1acos.html">module_autodiff::acos</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1asin.html">module_autodiff::asin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1atan.html">module_autodiff::atan</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__jn.html">module_autodiff::bessel_jn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__j0.html">module_autodiff::bessel_j0</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__j1.html">module_autodiff::bessel_j1</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__yn.html">module_autodiff::bessel_yn</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__y0.html">module_autodiff::bessel_y0</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1bessel__y1.html">module_autodiff::bessel_y1</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__autodiff_1_1hankel.html">module_autodiff::hankel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+モジュール</h2></td></tr>
+<tr class="memitem:namespacemodule__autodiff"><td class="memItemLeft" align="right" valign="top">module &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html">module_autodiff</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数/サブルーチン</h2></td></tr>
+<tr class="memitem:a2c9c4c0d3b459ed021472d5a06adec10"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a2c9c4c0d3b459ed021472d5a06adec10">module_autodiff::gen_choose</a> (choose_)</td></tr>
+<tr class="separator:a2c9c4c0d3b459ed021472d5a06adec10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184f5e57c7d097a258f194021ce5bb70"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a184f5e57c7d097a258f194021ce5bb70">module_autodiff::gen_factorial</a></td></tr>
+<tr class="separator:a184f5e57c7d097a258f194021ce5bb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872f58141d86308ed0fc5bf42f2dee6c"><td class="memItemLeft" align="right" valign="top">recursive subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a872f58141d86308ed0fc5bf42f2dee6c">module_autodiff::count_partitions</a> (p, px)</td></tr>
+<tr class="separator:a872f58141d86308ed0fc5bf42f2dee6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75bfc70434e4058ed65afb9f5aa4abe4"><td class="memItemLeft" align="right" valign="top">recursive subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a75bfc70434e4058ed65afb9f5aa4abe4">module_autodiff::gen_partition</a> (p, px)</td></tr>
+<tr class="separator:a75bfc70434e4058ed65afb9f5aa4abe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7817b1f31e13b5b6490b697116c28b36"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a7817b1f31e13b5b6490b697116c28b36">module_autodiff::gen_fdb</a></td></tr>
+<tr class="separator:a7817b1f31e13b5b6490b697116c28b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc69b5cd182aea0c81484f71b6f1507f"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#afc69b5cd182aea0c81484f71b6f1507f">module_autodiff::init_autodiff</a> (choose_)</td></tr>
+<tr class="separator:afc69b5cd182aea0c81484f71b6f1507f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f312f1da84d4f5545a3031c3e7631e"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a30f312f1da84d4f5545a3031c3e7631e">module_autodiff::uninit_autodiff</a> (choose_)</td></tr>
+<tr class="separator:a30f312f1da84d4f5545a3031c3e7631e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4b6ba4722a48944fa8d1e1ac2cffc2"><td class="memItemLeft" align="right" valign="top">elemental subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aae4b6ba4722a48944fa8d1e1ac2cffc2">module_autodiff::equaldr</a> (res, inp)</td></tr>
+<tr class="separator:aae4b6ba4722a48944fa8d1e1ac2cffc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e5625b6ddef790a09fedbb3dc8e658"><td class="memItemLeft" align="right" valign="top">elemental subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a64e5625b6ddef790a09fedbb3dc8e658">module_autodiff::equaldc</a> (res, inp)</td></tr>
+<tr class="separator:a64e5625b6ddef790a09fedbb3dc8e658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96e238a611e44e94407cdf29aa2e9ae"><td class="memItemLeft" align="right" valign="top">elemental subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ae96e238a611e44e94407cdf29aa2e9ae">module_autodiff::equaldd</a> (res, inp)</td></tr>
+<tr class="separator:ae96e238a611e44e94407cdf29aa2e9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bd9041a18d44ce57fbb18b6444f40e"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ab3bd9041a18d44ce57fbb18b6444f40e">module_autodiff::plusd</a> (v1)</td></tr>
+<tr class="separator:ab3bd9041a18d44ce57fbb18b6444f40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c7e4cd9ebbc9e4db0c0f3a46272dfc"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aa2c7e4cd9ebbc9e4db0c0f3a46272dfc">module_autodiff::addrd</a> (v1, v2)</td></tr>
+<tr class="separator:aa2c7e4cd9ebbc9e4db0c0f3a46272dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29430f33ea23e019f8f45aad057b2c98"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a29430f33ea23e019f8f45aad057b2c98">module_autodiff::adddr</a> (v1, v2)</td></tr>
+<tr class="separator:a29430f33ea23e019f8f45aad057b2c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8cdeb545d64675ba00fac16549964d3"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#af8cdeb545d64675ba00fac16549964d3">module_autodiff::addcd</a> (v1, v2)</td></tr>
+<tr class="separator:af8cdeb545d64675ba00fac16549964d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a0e84a6918acda268843401c00c9ff"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a69a0e84a6918acda268843401c00c9ff">module_autodiff::adddc</a> (v1, v2)</td></tr>
+<tr class="separator:a69a0e84a6918acda268843401c00c9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3dcd7bce712195f9e32d23fcdbe22a7"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ab3dcd7bce712195f9e32d23fcdbe22a7">module_autodiff::adddd</a> (v1, v2)</td></tr>
+<tr class="separator:ab3dcd7bce712195f9e32d23fcdbe22a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d75cecb63dc3ee9a2253812b808c8dc"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a0d75cecb63dc3ee9a2253812b808c8dc">module_autodiff::minusd</a> (v1)</td></tr>
+<tr class="separator:a0d75cecb63dc3ee9a2253812b808c8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b11a204097708398288fc347b4eca2"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a25b11a204097708398288fc347b4eca2">module_autodiff::subtractrd</a> (v1, v2)</td></tr>
+<tr class="separator:a25b11a204097708398288fc347b4eca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458eaf09018cb6fd03b26feb7ca6b61e"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a458eaf09018cb6fd03b26feb7ca6b61e">module_autodiff::subtractdr</a> (v1, v2)</td></tr>
+<tr class="separator:a458eaf09018cb6fd03b26feb7ca6b61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d7a9dfaa72d60e902b40ebd4c7c7638"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a8d7a9dfaa72d60e902b40ebd4c7c7638">module_autodiff::subtractcd</a> (v1, v2)</td></tr>
+<tr class="separator:a8d7a9dfaa72d60e902b40ebd4c7c7638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f88efa3bb5d0900dee858d7433b52f8"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a2f88efa3bb5d0900dee858d7433b52f8">module_autodiff::subtractdc</a> (v1, v2)</td></tr>
+<tr class="separator:a2f88efa3bb5d0900dee858d7433b52f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3d38d543807564dff4b9c498de2a0e"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aea3d38d543807564dff4b9c498de2a0e">module_autodiff::subtractdd</a> (v1, v2)</td></tr>
+<tr class="separator:aea3d38d543807564dff4b9c498de2a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad796c498795aaed8744dea3e63b47dde"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ad796c498795aaed8744dea3e63b47dde">module_autodiff::multiplyrd</a> (v1, v2)</td></tr>
+<tr class="separator:ad796c498795aaed8744dea3e63b47dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2d902b696470dfb5e2f56445d31012b"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ad2d902b696470dfb5e2f56445d31012b">module_autodiff::multiplydr</a> (v1, v2)</td></tr>
+<tr class="separator:ad2d902b696470dfb5e2f56445d31012b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e08ebf0a0fbd58e200c2b5b20f332ec"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a3e08ebf0a0fbd58e200c2b5b20f332ec">module_autodiff::multiplycd</a> (v1, v2)</td></tr>
+<tr class="separator:a3e08ebf0a0fbd58e200c2b5b20f332ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add60cf617e999570c1973d9a6803aa5e"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#add60cf617e999570c1973d9a6803aa5e">module_autodiff::multiplydc</a> (v1, v2)</td></tr>
+<tr class="separator:add60cf617e999570c1973d9a6803aa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a529e938f908793566ba8db5668682517"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a529e938f908793566ba8db5668682517">module_autodiff::multiplydd</a> (v1, v2)</td></tr>
+<tr class="separator:a529e938f908793566ba8db5668682517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0869722ed4ca4cf70194658c6817e06f"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a0869722ed4ca4cf70194658c6817e06f">module_autodiff::invertd</a> (inp)</td></tr>
+<tr class="separator:a0869722ed4ca4cf70194658c6817e06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c8c87f59ec1b793878100933b39891"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ac7c8c87f59ec1b793878100933b39891">module_autodiff::dividedd</a> (v1, v2)</td></tr>
+<tr class="separator:ac7c8c87f59ec1b793878100933b39891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc74cae23e6d4172f43a426e9a1c3642"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#afc74cae23e6d4172f43a426e9a1c3642">module_autodiff::dividedr</a> (v1, v2)</td></tr>
+<tr class="separator:afc74cae23e6d4172f43a426e9a1c3642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ac422469ea9a67fa9adc5bf07d4115"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ab5ac422469ea9a67fa9adc5bf07d4115">module_autodiff::dividerd</a> (v1, v2)</td></tr>
+<tr class="separator:ab5ac422469ea9a67fa9adc5bf07d4115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6db173973120732bef52294d71f4d28"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ad6db173973120732bef52294d71f4d28">module_autodiff::dividedc</a> (v1, v2)</td></tr>
+<tr class="separator:ad6db173973120732bef52294d71f4d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afe40a00c90f986eb76f877f5e2b08b"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a5afe40a00c90f986eb76f877f5e2b08b">module_autodiff::dividecd</a> (v1, v2)</td></tr>
+<tr class="separator:a5afe40a00c90f986eb76f877f5e2b08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be3737f7a367444922d9b7e6295bf18"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a6be3737f7a367444922d9b7e6295bf18">module_autodiff::powerdi</a> (v1, v2)</td></tr>
+<tr class="separator:a6be3737f7a367444922d9b7e6295bf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105b520eeddecb5b52a9495d56cacc79"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a105b520eeddecb5b52a9495d56cacc79">module_autodiff::powerdr</a> (v1, v2)</td></tr>
+<tr class="separator:a105b520eeddecb5b52a9495d56cacc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ccf9af21aa25ba9c09befc05d3f3c9"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a61ccf9af21aa25ba9c09befc05d3f3c9">module_autodiff::powerdc</a> (v1, v2)</td></tr>
+<tr class="separator:a61ccf9af21aa25ba9c09befc05d3f3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf61f2a51ad45c0e04b1fb2b51d5278"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#afdf61f2a51ad45c0e04b1fb2b51d5278">module_autodiff::powerrd</a> (v1, v2)</td></tr>
+<tr class="separator:afdf61f2a51ad45c0e04b1fb2b51d5278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d94a947a97042510ce483daf62c821"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a50d94a947a97042510ce483daf62c821">module_autodiff::powercd</a> (v1, v2)</td></tr>
+<tr class="separator:a50d94a947a97042510ce483daf62c821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2835dd3e8458ff90ad4debe75c91e7e4"><td class="memItemLeft" align="right" valign="top">pure type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a2835dd3e8458ff90ad4debe75c91e7e4">module_autodiff::polyfdb</a> (f, g)</td></tr>
+<tr class="separator:a2835dd3e8458ff90ad4debe75c91e7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4487b535a8de0ce36a592be74766f433"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a4487b535a8de0ce36a592be74766f433">module_autodiff::reald</a> (v1)</td></tr>
+<tr class="separator:a4487b535a8de0ce36a592be74766f433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b23f24eaa1a9066376e9625df5876f9"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a9b23f24eaa1a9066376e9625df5876f9">module_autodiff::aimagd</a> (v1)</td></tr>
+<tr class="separator:a9b23f24eaa1a9066376e9625df5876f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2c478f590f5b33ecfa84808d937d24"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a7e2c478f590f5b33ecfa84808d937d24">module_autodiff::conjgd</a> (v1)</td></tr>
+<tr class="separator:a7e2c478f590f5b33ecfa84808d937d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02b75d0be5244fd234298110cecaa0d5"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a02b75d0be5244fd234298110cecaa0d5">module_autodiff::sind</a> (v1)</td></tr>
+<tr class="separator:a02b75d0be5244fd234298110cecaa0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301f86ee71d84841be958b09a3e05e8e"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a301f86ee71d84841be958b09a3e05e8e">module_autodiff::cosd</a> (v1)</td></tr>
+<tr class="separator:a301f86ee71d84841be958b09a3e05e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379746e8f38373ddef94eb794e5ff557"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a379746e8f38373ddef94eb794e5ff557">module_autodiff::tand</a> (v1)</td></tr>
+<tr class="separator:a379746e8f38373ddef94eb794e5ff557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461aa0a2f5f83b830c12ee45c11212a6"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a461aa0a2f5f83b830c12ee45c11212a6">module_autodiff::sqrtd</a> (v1)</td></tr>
+<tr class="separator:a461aa0a2f5f83b830c12ee45c11212a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8b75d3b4fc7923d560dfa0b3280d87"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#abf8b75d3b4fc7923d560dfa0b3280d87">module_autodiff::logd</a> (v1)</td></tr>
+<tr class="separator:abf8b75d3b4fc7923d560dfa0b3280d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f921004032699a43b2197691cd36c35"><td class="memItemLeft" align="right" valign="top">elemental complex(8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a5f921004032699a43b2197691cd36c35">module_autodiff::log10c</a> (v1)</td></tr>
+<tr class="separator:a5f921004032699a43b2197691cd36c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20fb2d1a8efb76e280123620451ddc4"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ac20fb2d1a8efb76e280123620451ddc4">module_autodiff::log10d</a> (v1)</td></tr>
+<tr class="separator:ac20fb2d1a8efb76e280123620451ddc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108db61968c5155c2e5fa5554d1e1af5"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a108db61968c5155c2e5fa5554d1e1af5">module_autodiff::expd</a> (v1)</td></tr>
+<tr class="separator:a108db61968c5155c2e5fa5554d1e1af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed08d17d13f8de9b10dcd9cba1cfce2"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a3ed08d17d13f8de9b10dcd9cba1cfce2">module_autodiff::sinhd</a> (v1)</td></tr>
+<tr class="separator:a3ed08d17d13f8de9b10dcd9cba1cfce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf133fb3b133dcbd09f446958f05f608"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aaf133fb3b133dcbd09f446958f05f608">module_autodiff::coshd</a> (v1)</td></tr>
+<tr class="separator:aaf133fb3b133dcbd09f446958f05f608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0c0fc45da1bc3ef5c7d658446eafb6"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ace0c0fc45da1bc3ef5c7d658446eafb6">module_autodiff::tanhd</a> (v1)</td></tr>
+<tr class="separator:ace0c0fc45da1bc3ef5c7d658446eafb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84cae54c7604f1a5bd13078e47ec1a7"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aa84cae54c7604f1a5bd13078e47ec1a7">module_autodiff::acosd</a> (v1)</td></tr>
+<tr class="separator:aa84cae54c7604f1a5bd13078e47ec1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae38c2c20e2cc044b269c70f2ceee299b"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ae38c2c20e2cc044b269c70f2ceee299b">module_autodiff::asind</a> (v1)</td></tr>
+<tr class="separator:ae38c2c20e2cc044b269c70f2ceee299b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a78572b5aea0ee38a7f67aae0288afb"><td class="memItemLeft" align="right" valign="top">elemental type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a5a78572b5aea0ee38a7f67aae0288afb">module_autodiff::atand</a> (v1)</td></tr>
+<tr class="separator:a5a78572b5aea0ee38a7f67aae0288afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7dbf8fcb25509ae9abc65c99eb9418b"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ab7dbf8fcb25509ae9abc65c99eb9418b">module_autodiff::bessel_jnd</a> (v1, v2)</td></tr>
+<tr class="separator:ab7dbf8fcb25509ae9abc65c99eb9418b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae12520cfe8fb539b0fb639cd4d47d94c"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#ae12520cfe8fb539b0fb639cd4d47d94c">module_autodiff::bessel_j0d</a> (v1)</td></tr>
+<tr class="separator:ae12520cfe8fb539b0fb639cd4d47d94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c7e37bbf41ae1fe0ce95179c9fa305"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a66c7e37bbf41ae1fe0ce95179c9fa305">module_autodiff::bessel_j1d</a> (v1)</td></tr>
+<tr class="separator:a66c7e37bbf41ae1fe0ce95179c9fa305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f5a1fff1f4d5f0ea29a7f1f56ae06b"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a13f5a1fff1f4d5f0ea29a7f1f56ae06b">module_autodiff::bessel_ynd</a> (v1, v2)</td></tr>
+<tr class="separator:a13f5a1fff1f4d5f0ea29a7f1f56ae06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75138d6246c8fe6262b106c2a83eb2a2"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a75138d6246c8fe6262b106c2a83eb2a2">module_autodiff::bessel_y0d</a> (v1)</td></tr>
+<tr class="separator:a75138d6246c8fe6262b106c2a83eb2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5779f1cd5b5aada1654a168a51ed3b55"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a5779f1cd5b5aada1654a168a51ed3b55">module_autodiff::bessel_y1d</a> (v1)</td></tr>
+<tr class="separator:a5779f1cd5b5aada1654a168a51ed3b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c44594b4a223f8eb98ec2c9ff0e70a"><td class="memItemLeft" align="right" valign="top">type(dcomplex8) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a18c44594b4a223f8eb98ec2c9ff0e70a">module_autodiff::hankeld</a> (m, n, v1)</td></tr>
+<tr class="separator:a18c44594b4a223f8eb98ec2c9ff0e70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:a1401e9607293816b73f7d65b916d80b4"><td class="memItemLeft" align="right" valign="top">integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a1401e9607293816b73f7d65b916d80b4">module_autodiff::n</a> =ntaylor</td></tr>
+<tr class="separator:a1401e9607293816b73f7d65b916d80b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1b06a0a673f9777503a04e6e502f52"><td class="memItemLeft" align="right" valign="top">type(icj), dimension(:), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aee1b06a0a673f9777503a04e6e502f52">module_autodiff::choose</a></td></tr>
+<tr class="separator:aee1b06a0a673f9777503a04e6e502f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa333c87ad0c5697d06407a8c3ff3fcfd"><td class="memItemLeft" align="right" valign="top">real(8), dimension(0:n)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aa333c87ad0c5697d06407a8c3ff3fcfd">module_autodiff::fact</a></td></tr>
+<tr class="separator:aa333c87ad0c5697d06407a8c3ff3fcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cef8106f5dc549600693c18654d838b"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a6cef8106f5dc549600693c18654d838b">module_autodiff::maxfdb</a></td></tr>
+<tr class="separator:a6cef8106f5dc549600693c18654d838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0af9a98a346692c1feb76df17c11fe"><td class="memItemLeft" align="right" valign="top">type(faadibruno), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a5e0af9a98a346692c1feb76df17c11fe">module_autodiff::fdb</a></td></tr>
+<tr class="separator:a5e0af9a98a346692c1feb76df17c11fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ecbd632d23ca65b28b9530937d0ded"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a11ecbd632d23ca65b28b9530937d0ded">module_autodiff::idx</a></td></tr>
+<tr class="separator:a11ecbd632d23ca65b28b9530937d0ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23354ea6a8362deb654f021146143247"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#a23354ea6a8362deb654f021146143247">module_autodiff::knd</a></td></tr>
+<tr class="separator:a23354ea6a8362deb654f021146143247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba874639415bbea5deacff78be93250f"><td class="memItemLeft" align="right" valign="top">integer, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__autodiff.html#aba874639415bbea5deacff78be93250f">module_autodiff::parts</a></td></tr>
+<tr class="separator:aba874639415bbea5deacff78be93250f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2019年12月27日(金) 09時03分42秒作成 - gtq_quadp / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

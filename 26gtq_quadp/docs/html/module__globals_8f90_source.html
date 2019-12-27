@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>gtq_quadp: module_globals.f90 ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">gtq_quadp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="dir_ba96495e18707fc4c8bcdb34c3490fda.html">isakari</a></li><li class="navelem"><a class="el" href="dir_e05f9a4996a405bd94d2ea405802e328.html">Dropbox</a></li><li class="navelem"><a class="el" href="dir_30518d53771eaf97f97e8de66e12a039.html">Works</a></li><li class="navelem"><a class="el" href="dir_229b14368c9b2ccd51505fa6f3496507.html">20ss</a></li><li class="navelem"><a class="el" href="dir_80d0333499c09a5616212d374a94cf5e.html">26gtq_quadp</a></li><li class="navelem"><a class="el" href="dir_677ea6e77ccbef9e3c90fd4e7093d305.html">test</a></li><li class="navelem"><a class="el" href="dir_1365d931f175a97e16d043dac7cc437c.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">module_globals.f90</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="module__globals_8f90.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html">    1</a></span>&#160;<span class="keyword">module</span> <a class="code" href="namespacemodule__globals.html">module_globals</a></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;  <span class="keywordtype">implicit none</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#a8a038adc09227769a853c46156e5a65f">    4</a></span>&#160;  <span class="keywordtype">complex(8)</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#a8a038adc09227769a853c46156e5a65f">one</a>=cmplx(1.d0,0.d0,kind(1.d0))</div><div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#a69a8e56e9c6c31627db244314de738f1">    5</a></span>&#160;  <span class="keywordtype">complex(8)</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#a69a8e56e9c6c31627db244314de738f1">zero</a>=cmplx(0.d0,0.d0,kind(1.d0))</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#ad28403417f7fc61d76911e9b456372f0">    6</a></span>&#160;  <span class="keywordtype">complex(8)</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#ad28403417f7fc61d76911e9b456372f0">ione</a>=cmplx(0.d0,1.d0,kind(1.d0))</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#af8ebfe3ddea65ea13ee5ff633c17ff1b">    7</a></span>&#160;  <span class="keywordtype">real(8)</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#af8ebfe3ddea65ea13ee5ff633c17ff1b">pi</a>=acos(-1.d0)</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#a08647aec10e9772f645c09d29db1f709">    8</a></span>&#160;  <span class="keywordtype">integer</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#a08647aec10e9772f645c09d29db1f709">maxs</a>=10</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#a2c11b6609025c4192e2734c4fbea83e2">    9</a></span>&#160;  <span class="keywordtype">integer</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#a2c11b6609025c4192e2734c4fbea83e2">ntaylor</a>=<a class="code" href="namespacemodule__globals.html#a08647aec10e9772f645c09d29db1f709">maxs</a>*2</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespacemodule__globals.html#aa94181987fa5019c83ed32db8d4a3e3f">   10</a></span>&#160;  <span class="keywordtype">integer</span>,<span class="keywordtype">parameter</span> :: <a class="code" href="namespacemodule__globals.html#aa94181987fa5019c83ed32db8d4a3e3f">maxngt</a>=100</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  </div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">end module </span><a class="code" href="namespacemodule__globals.html">module_globals</a></div><div class="ttc" id="namespacemodule__globals_html_a69a8e56e9c6c31627db244314de738f1"><div class="ttname"><a href="namespacemodule__globals.html#a69a8e56e9c6c31627db244314de738f1">module_globals::zero</a></div><div class="ttdeci">complex(8), parameter zero</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00005">module_globals.f90:5</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_a8a038adc09227769a853c46156e5a65f"><div class="ttname"><a href="namespacemodule__globals.html#a8a038adc09227769a853c46156e5a65f">module_globals::one</a></div><div class="ttdeci">complex(8), parameter one</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00004">module_globals.f90:4</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html"><div class="ttname"><a href="namespacemodule__globals.html">module_globals</a></div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00001">module_globals.f90:1</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_af8ebfe3ddea65ea13ee5ff633c17ff1b"><div class="ttname"><a href="namespacemodule__globals.html#af8ebfe3ddea65ea13ee5ff633c17ff1b">module_globals::pi</a></div><div class="ttdeci">real(8), parameter pi</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00007">module_globals.f90:7</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_aa94181987fa5019c83ed32db8d4a3e3f"><div class="ttname"><a href="namespacemodule__globals.html#aa94181987fa5019c83ed32db8d4a3e3f">module_globals::maxngt</a></div><div class="ttdeci">integer, parameter maxngt</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00010">module_globals.f90:10</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_a08647aec10e9772f645c09d29db1f709"><div class="ttname"><a href="namespacemodule__globals.html#a08647aec10e9772f645c09d29db1f709">module_globals::maxs</a></div><div class="ttdeci">integer, parameter maxs</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00008">module_globals.f90:8</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_ad28403417f7fc61d76911e9b456372f0"><div class="ttname"><a href="namespacemodule__globals.html#ad28403417f7fc61d76911e9b456372f0">module_globals::ione</a></div><div class="ttdeci">complex(8), parameter ione</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00006">module_globals.f90:6</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_a2c11b6609025c4192e2734c4fbea83e2"><div class="ttname"><a href="namespacemodule__globals.html#a2c11b6609025c4192e2734c4fbea83e2">module_globals::ntaylor</a></div><div class="ttdeci">integer, parameter ntaylor</div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00009">module_globals.f90:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2019年12月27日(金) 09時03分42秒作成 - gtq_quadp / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

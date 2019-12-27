@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['gausslegendrequadrature',['gausslegendrequadrature',['../structmodule__gauss__turan__quadrature_1_1gausslegendrequadrature.html',1,'module_gauss_turan_quadrature']]],
-  ['gaussturanquadrature',['gaussturanquadrature',['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature.html',1,'module_gauss_turan_quadrature']]],
-  ['gaussturanquadrature2',['gaussturanquadrature2',['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature2.html',1,'module_gauss_turan_quadrature']]],
-  ['gl',['gl',['../namespacemodule__gauss__turan__quadrature.html#a36034bc652e139997b688fd4e50836e5',1,'module_gauss_turan_quadrature']]],
-  ['gt',['gt',['../namespacemodule__gauss__turan__quadrature.html#a851de5aa6546431e8b0e51e9973cb3d0',1,'module_gauss_turan_quadrature']]],
-  ['gz',['gz',['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature2.html#ab8359923adf09c9705e0131c24827bff',1,'module_gauss_turan_quadrature::gaussturanquadrature2::gz()'],['../structmodule__gauss__turan__quadrature_1_1gausslegendrequadrature.html#a0a4d0906ea97aa2c0154ceb9ad02ca80',1,'module_gauss_turan_quadrature::gausslegendrequadrature::gz()'],['../structmodule__gauss__turan__quadrature_1_1gaussturanquadrature2.html#a6486fd7b4ac1bbf1c732ec64e065df6a',1,'module_gauss_turan_quadrature::gaussturanquadrature2::gz()'],['../structmodule__gauss__turan__quadrature_1_1gausslegendrequadrature.html#a25f59a84eae7432b25abd4904c09c6f7',1,'module_gauss_turan_quadrature::gausslegendrequadrature::gz()']]]
+  ['dcomplex8',['dcomplex8',['../structmodule__autodiff_1_1dcomplex8.html',1,'module_autodiff']]],
+  ['delta',['delta',['../namespacemodule__gauss__turan__quadrature.html#a7f041146d9fae9bdb673df7bfbcc812b',1,'module_gauss_turan_quadrature']]],
+  ['df',['df',['../namespacemodule__math.html#a69529066a9f39d3f052f0e892adf8daa',1,'module_math']]],
+  ['dividecd',['dividecd',['../interfacemodule__autodiff_1_1operator_07_2_08.html#ab4111e3888d357f1d60f9be0419be0fd',1,'module_autodiff::operator(/)::dividecd()'],['../namespacemodule__autodiff.html#a5afe40a00c90f986eb76f877f5e2b08b',1,'module_autodiff::dividecd()']]],
+  ['dividedc',['dividedc',['../interfacemodule__autodiff_1_1operator_07_2_08.html#a03c742aced0c9dd8ea4acf31bdd52eb6',1,'module_autodiff::operator(/)::dividedc()'],['../namespacemodule__autodiff.html#ad6db173973120732bef52294d71f4d28',1,'module_autodiff::dividedc()']]],
+  ['dividedd',['dividedd',['../interfacemodule__autodiff_1_1operator_07_2_08.html#a066c671cd6ca7398da7db22027e454ce',1,'module_autodiff::operator(/)::dividedd()'],['../namespacemodule__autodiff.html#ac7c8c87f59ec1b793878100933b39891',1,'module_autodiff::dividedd()']]],
+  ['dividedr',['dividedr',['../interfacemodule__autodiff_1_1operator_07_2_08.html#ad7c3ddd369732ae7c4b319168e05f781',1,'module_autodiff::operator(/)::dividedr()'],['../namespacemodule__autodiff.html#afc74cae23e6d4172f43a426e9a1c3642',1,'module_autodiff::dividedr()']]],
+  ['dividerd',['dividerd',['../interfacemodule__autodiff_1_1operator_07_2_08.html#af0c29682acc17e6120f00608e255f59e',1,'module_autodiff::operator(/)::dividerd()'],['../namespacemodule__autodiff.html#ab5ac422469ea9a67fa9adc5bf07d4115',1,'module_autodiff::dividerd()']]],
+  ['dpoly',['dpoly',['../namespacemodule__gauss__turan__quadrature.html#a745723b4c72ed406c1e1f84f7ee66e26',1,'module_gauss_turan_quadrature']]]
 ];

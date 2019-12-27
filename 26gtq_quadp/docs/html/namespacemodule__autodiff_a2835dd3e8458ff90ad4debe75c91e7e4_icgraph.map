@@ -1,0 +1,24 @@
+<map id="module_autodiff::polyfdb" name="module_autodiff::polyfdb">
+<area shape="rect" id="node2" href="$namespacemodule__autodiff.html#aa84cae54c7604f1a5bd13078e47ec1a7" title="module_autodiff::acosd" alt="" coords="233,5,390,32"/>
+<area shape="rect" id="node3" href="$namespacemodule__autodiff.html#ae38c2c20e2cc044b269c70f2ceee299b" title="module_autodiff::asind" alt="" coords="235,56,388,83"/>
+<area shape="rect" id="node4" href="$namespacemodule__autodiff.html#a5a78572b5aea0ee38a7f67aae0288afb" title="module_autodiff::atand" alt="" coords="234,107,389,133"/>
+<area shape="rect" id="node5" href="$namespacemodule__autodiff.html#ab7dbf8fcb25509ae9abc65c99eb9418b" title="module_autodiff::bessel_jnd" alt="" coords="219,157,403,184"/>
+<area shape="rect" id="node6" href="$namespacemodule__autodiff.html#a13f5a1fff1f4d5f0ea29a7f1f56ae06b" title="module_autodiff::bessel_ynd" alt="" coords="217,208,405,235"/>
+<area shape="rect" id="node7" href="$namespacemodule__autodiff.html#a301f86ee71d84841be958b09a3e05e8e" title="module_autodiff::cosd" alt="" coords="236,259,387,285"/>
+<area shape="rect" id="node8" href="$namespacemodule__autodiff.html#aaf133fb3b133dcbd09f446958f05f608" title="module_autodiff::coshd" alt="" coords="233,309,390,336"/>
+<area shape="rect" id="node9" href="$namespacemodule__autodiff.html#a108db61968c5155c2e5fa5554d1e1af5" title="module_autodiff::expd" alt="" coords="236,360,387,387"/>
+<area shape="rect" id="node10" href="$namespacemodule__autodiff.html#a0869722ed4ca4cf70194658c6817e06f" title="module_autodiff::invertd" alt="" coords="231,411,392,437"/>
+<area shape="rect" id="node14" href="$namespacemodule__autodiff.html#ac20fb2d1a8efb76e280123620451ddc4" title="module_autodiff::log10d" alt="" coords="231,461,391,488"/>
+<area shape="rect" id="node15" href="$namespacemodule__autodiff.html#abf8b75d3b4fc7923d560dfa0b3280d87" title="module_autodiff::logd" alt="" coords="238,512,385,539"/>
+<area shape="rect" id="node16" href="$namespacemodule__autodiff.html#a50d94a947a97042510ce483daf62c821" title="module_autodiff::powercd" alt="" coords="226,563,397,589"/>
+<area shape="rect" id="node17" href="$namespacemodule__autodiff.html#a61ccf9af21aa25ba9c09befc05d3f3c9" title="module_autodiff::powerdc" alt="" coords="226,613,397,640"/>
+<area shape="rect" id="node18" href="$namespacemodule__autodiff.html#a6be3737f7a367444922d9b7e6295bf18" title="module_autodiff::powerdi" alt="" coords="228,664,395,691"/>
+<area shape="rect" id="node19" href="$namespacemodule__autodiff.html#a105b520eeddecb5b52a9495d56cacc79" title="module_autodiff::powerdr" alt="" coords="227,715,395,741"/>
+<area shape="rect" id="node20" href="$namespacemodule__autodiff.html#afdf61f2a51ad45c0e04b1fb2b51d5278" title="module_autodiff::powerrd" alt="" coords="227,765,395,792"/>
+<area shape="rect" id="node21" href="$namespacemodule__autodiff.html#a02b75d0be5244fd234298110cecaa0d5" title="module_autodiff::sind" alt="" coords="238,816,385,843"/>
+<area shape="rect" id="node22" href="$namespacemodule__autodiff.html#a3ed08d17d13f8de9b10dcd9cba1cfce2" title="module_autodiff::sinhd" alt="" coords="235,867,388,893"/>
+<area shape="rect" id="node23" href="$namespacemodule__autodiff.html#a461aa0a2f5f83b830c12ee45c11212a6" title="module_autodiff::sqrtd" alt="" coords="236,917,387,944"/>
+<area shape="rect" id="node11" href="$namespacemodule__autodiff.html#a5afe40a00c90f986eb76f877f5e2b08b" title="module_autodiff::dividecd" alt="" coords="453,360,624,387"/>
+<area shape="rect" id="node12" href="$namespacemodule__autodiff.html#ac7c8c87f59ec1b793878100933b39891" title="module_autodiff::dividedd" alt="" coords="453,411,624,437"/>
+<area shape="rect" id="node13" href="$namespacemodule__autodiff.html#ab5ac422469ea9a67fa9adc5bf07d4115" title="module_autodiff::dividerd" alt="" coords="455,461,622,488"/>
+</map>
