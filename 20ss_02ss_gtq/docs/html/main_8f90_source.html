@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ss_gtq: main.f90 ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ss_gtq
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_43e0a1f539e00dcfa1a6bc4d4fee4fc2.html">home</a></li><li class="navelem"><a class="el" href="dir_ba96495e18707fc4c8bcdb34c3490fda.html">isakari</a></li><li class="navelem"><a class="el" href="dir_e05f9a4996a405bd94d2ea405802e328.html">Dropbox</a></li><li class="navelem"><a class="el" href="dir_30518d53771eaf97f97e8de66e12a039.html">Works</a></li><li class="navelem"><a class="el" href="dir_229b14368c9b2ccd51505fa6f3496507.html">20ss</a></li><li class="navelem"><a class="el" href="dir_6c1cfde7545c0ec2cee4b3b5330191c2.html">02ss_gtq</a></li><li class="navelem"><a class="el" href="dir_e07f3ea091024bbad14d673e16e92d6d.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">main.f90</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="main_8f90.html">[詳解]</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d">    2</a></span>&#160;<span class="keyword">program</span> <a class="code" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d">main</a></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacemodule__globals.html">module_globals</a></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacemodule__gauss__turan__quadrature.html">module_gauss_turan_quadrature</a></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacemodule__autodiff.html">module_autodiff</a></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacemodule__matrix.html">module_matrix</a></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keywordtype">use </span><a class="code" href="namespacemodule__ssm.html">module_ssm</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordtype">implicit none</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keywordtype">type</span>(<a class="code" href="structmodule__gauss__turan__quadrature_1_1gaussturanquadrature.html">gaussturanquadrature</a>) :: gt(<a class="code" href="namespacemodule__globals.html#aa94181987fa5019c83ed32db8d4a3e3f">maxngt</a>)</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keywordtype">type</span>(<a class="code" href="structmodule__autodiff_1_1icj.html">icj</a>) :: choose(0:<a class="code" href="namespacemodule__globals.html#a2c11b6609025c4192e2734c4fbea83e2">ntaylor</a>)</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">type</span>(<a class="code" href="structmodule__matrix_1_1matrix.html">matrix</a>) :: tm</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordtype">type</span>(<a class="code" href="structmodule__ssm_1_1sakuraisugiuramethod.html">sakuraisugiuramethod</a>) :: ssm</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__gauss__turan__quadrature.html#ae538a4a0a57333464c8f3a9bf6e2bc16">init_gauss_turan</a>(gt)</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__autodiff.html#afc69b5cd182aea0c81484f71b6f1507f">init_autodiff</a>(choose)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__matrix.html#a1fab93679ca4dc6c311dc0fcc20841a8">init_matrix</a>(tm)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__ssm.html#a66844325ab490e49760511d5ce7a3461">init_ssm</a>(tm,gt,choose,ssm)</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__ssm.html#af356c3d55d52fa57ac07827f4669c904">eigensolver_ssm</a>(ssm)</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__ssm.html#ae07336c0339cdf8af15751ab3b9cfb32">uninit_ssm</a>(ssm)</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__matrix.html#a8589a6d377ebaf3fe013f5f8151c4dcf">uninit_matrix</a>(tm)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__autodiff.html#a30f312f1da84d4f5545a3031c3e7631e">uninit_autodiff</a>(choose)</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">call </span><a class="code" href="namespacemodule__gauss__turan__quadrature.html#a309bd20010bb626f6d2fe71be19d2baf">uninit_gauss_turan</a>(gt)</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  </div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">end program </span><a class="code" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d">main</a></div><div class="ttc" id="structmodule__autodiff_1_1icj_html"><div class="ttname"><a href="structmodule__autodiff_1_1icj.html">module_autodiff::icj</a></div><div class="ttdef"><b>Definition:</b> <a href="module__autodiff_8f90_source.html#l00012">module_autodiff.f90:12</a></div></div>
+<div class="ttc" id="namespacemodule__ssm_html_ae07336c0339cdf8af15751ab3b9cfb32"><div class="ttname"><a href="namespacemodule__ssm.html#ae07336c0339cdf8af15751ab3b9cfb32">module_ssm::uninit_ssm</a></div><div class="ttdeci">subroutine, public uninit_ssm(ssm_)</div><div class="ttdoc">destroy ssm </div><div class="ttdef"><b>Definition:</b> <a href="module__ssm_8f90_source.html#l00174">module_ssm.f90:174</a></div></div>
+<div class="ttc" id="namespacemodule__ssm_html_a66844325ab490e49760511d5ce7a3461"><div class="ttname"><a href="namespacemodule__ssm.html#a66844325ab490e49760511d5ce7a3461">module_ssm::init_ssm</a></div><div class="ttdeci">subroutine, public init_ssm(tm_, gt_, choose_, ssm_)</div><div class="ttdoc">initialise ssm </div><div class="ttdef"><b>Definition:</b> <a href="module__ssm_8f90_source.html#l00084">module_ssm.f90:84</a></div></div>
+<div class="ttc" id="namespacemodule__autodiff_html_a30f312f1da84d4f5545a3031c3e7631e"><div class="ttname"><a href="namespacemodule__autodiff.html#a30f312f1da84d4f5545a3031c3e7631e">module_autodiff::uninit_autodiff</a></div><div class="ttdeci">subroutine, public uninit_autodiff(choose_)</div><div class="ttdoc">finalise </div><div class="ttdef"><b>Definition:</b> <a href="module__autodiff_8f90_source.html#l00543">module_autodiff.f90:543</a></div></div>
+<div class="ttc" id="namespacemodule__autodiff_html_afc69b5cd182aea0c81484f71b6f1507f"><div class="ttname"><a href="namespacemodule__autodiff.html#afc69b5cd182aea0c81484f71b6f1507f">module_autodiff::init_autodiff</a></div><div class="ttdeci">subroutine, public init_autodiff(choose_)</div><div class="ttdoc">initialise </div><div class="ttdef"><b>Definition:</b> <a href="module__autodiff_8f90_source.html#l00534">module_autodiff.f90:534</a></div></div>
+<div class="ttc" id="namespacemodule__matrix_html_a8589a6d377ebaf3fe013f5f8151c4dcf"><div class="ttname"><a href="namespacemodule__matrix.html#a8589a6d377ebaf3fe013f5f8151c4dcf">module_matrix::uninit_matrix</a></div><div class="ttdeci">subroutine, public uninit_matrix(tm_)</div><div class="ttdoc">deallocate and nullify Matrix </div><div class="ttdef"><b>Definition:</b> <a href="module__matrix_8f90_source.html#l00036">module_matrix.f90:36</a></div></div>
+<div class="ttc" id="namespacemodule__autodiff_html"><div class="ttname"><a href="namespacemodule__autodiff.html">module_autodiff</a></div><div class="ttdoc">自動微分 </div><div class="ttdef"><b>Definition:</b> <a href="module__autodiff_8f90_source.html#l00002">module_autodiff.f90:2</a></div></div>
+<div class="ttc" id="main_8f90_html_a8ec2266d83cd6c0b762cbcbc92c0af3d"><div class="ttname"><a href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d">main</a></div><div class="ttdeci">program main</div><div class="ttdoc">main </div><div class="ttdef"><b>Definition:</b> <a href="main_8f90_source.html#l00002">main.f90:2</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html"><div class="ttname"><a href="namespacemodule__globals.html">module_globals</a></div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00001">module_globals.f90:1</a></div></div>
+<div class="ttc" id="namespacemodule__ssm_html"><div class="ttname"><a href="namespacemodule__ssm.html">module_ssm</a></div><div class="ttdoc">ssm </div><div class="ttdef"><b>Definition:</b> <a href="module__ssm_8f90_source.html#l00002">module_ssm.f90:2</a></div></div>
+<div class="ttc" id="namespacemodule__matrix_html_a1fab93679ca4dc6c311dc0fcc20841a8"><div class="ttname"><a href="namespacemodule__matrix.html#a1fab93679ca4dc6c311dc0fcc20841a8">module_matrix::init_matrix</a></div><div class="ttdeci">subroutine, public init_matrix(tm_)</div><div class="ttdoc">allocate and associate Matrix </div><div class="ttdef"><b>Definition:</b> <a href="module__matrix_8f90_source.html#l00026">module_matrix.f90:26</a></div></div>
+<div class="ttc" id="namespacemodule__ssm_html_af356c3d55d52fa57ac07827f4669c904"><div class="ttname"><a href="namespacemodule__ssm.html#af356c3d55d52fa57ac07827f4669c904">module_ssm::eigensolver_ssm</a></div><div class="ttdeci">subroutine, public eigensolver_ssm(ssm_)</div><div class="ttdoc">eigensolver </div><div class="ttdef"><b>Definition:</b> <a href="module__ssm_8f90_source.html#l00217">module_ssm.f90:217</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_aa94181987fa5019c83ed32db8d4a3e3f"><div class="ttname"><a href="namespacemodule__globals.html#aa94181987fa5019c83ed32db8d4a3e3f">module_globals::maxngt</a></div><div class="ttdeci">integer, parameter maxngt</div><div class="ttdoc">GT公式の最大分点数 </div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00012">module_globals.f90:12</a></div></div>
+<div class="ttc" id="namespacemodule__gauss__turan__quadrature_html_a309bd20010bb626f6d2fe71be19d2baf"><div class="ttname"><a href="namespacemodule__gauss__turan__quadrature.html#a309bd20010bb626f6d2fe71be19d2baf">module_gauss_turan_quadrature::uninit_gauss_turan</a></div><div class="ttdeci">subroutine, public uninit_gauss_turan(gt_)</div><div class="ttdoc">deallocate and nullify gt </div><div class="ttdef"><b>Definition:</b> <a href="module__gauss__turan__quadrature_8f90_source.html#l00060">module_gauss_turan_quadrature.f90:60</a></div></div>
+<div class="ttc" id="namespacemodule__matrix_html"><div class="ttname"><a href="namespacemodule__matrix.html">module_matrix</a></div><div class="ttdoc">matrix </div><div class="ttdef"><b>Definition:</b> <a href="module__matrix_8f90_source.html#l00002">module_matrix.f90:2</a></div></div>
+<div class="ttc" id="namespacemodule__gauss__turan__quadrature_html_ae538a4a0a57333464c8f3a9bf6e2bc16"><div class="ttname"><a href="namespacemodule__gauss__turan__quadrature.html#ae538a4a0a57333464c8f3a9bf6e2bc16">module_gauss_turan_quadrature::init_gauss_turan</a></div><div class="ttdeci">subroutine, public init_gauss_turan(gt_)</div><div class="ttdoc">allocate, associate and load gt </div><div class="ttdef"><b>Definition:</b> <a href="module__gauss__turan__quadrature_8f90_source.html#l00028">module_gauss_turan_quadrature.f90:28</a></div></div>
+<div class="ttc" id="namespacemodule__gauss__turan__quadrature_html"><div class="ttname"><a href="namespacemodule__gauss__turan__quadrature.html">module_gauss_turan_quadrature</a></div><div class="ttdef"><b>Definition:</b> <a href="module__gauss__turan__quadrature_8f90_source.html#l00001">module_gauss_turan_quadrature.f90:1</a></div></div>
+<div class="ttc" id="structmodule__ssm_1_1sakuraisugiuramethod_html"><div class="ttname"><a href="structmodule__ssm_1_1sakuraisugiuramethod.html">module_ssm::sakuraisugiuramethod</a></div><div class="ttdoc">sakurai sugiura method </div><div class="ttdef"><b>Definition:</b> <a href="module__ssm_8f90_source.html#l00018">module_ssm.f90:18</a></div></div>
+<div class="ttc" id="structmodule__gauss__turan__quadrature_1_1gaussturanquadrature_html"><div class="ttname"><a href="structmodule__gauss__turan__quadrature_1_1gaussturanquadrature.html">module_gauss_turan_quadrature::gaussturanquadrature</a></div><div class="ttdoc">type(GaussTuranQuadrature) gt(n)s(s) contains nodes and weights for Gauss-Turan-type quadrature (GTQ)...</div><div class="ttdef"><b>Definition:</b> <a href="module__gauss__turan__quadrature_8f90_source.html#l00019">module_gauss_turan_quadrature.f90:19</a></div></div>
+<div class="ttc" id="namespacemodule__globals_html_a2c11b6609025c4192e2734c4fbea83e2"><div class="ttname"><a href="namespacemodule__globals.html#a2c11b6609025c4192e2734c4fbea83e2">module_globals::ntaylor</a></div><div class="ttdeci">integer, parameter ntaylor</div><div class="ttdoc">最大微分回数 </div><div class="ttdef"><b>Definition:</b> <a href="module__globals_8f90_source.html#l00015">module_globals.f90:15</a></div></div>
+<div class="ttc" id="structmodule__matrix_1_1matrix_html"><div class="ttname"><a href="structmodule__matrix_1_1matrix.html">module_matrix::matrix</a></div><div class="ttdoc">test matrix </div><div class="ttdef"><b>Definition:</b> <a href="module__matrix_8f90_source.html#l00011">module_matrix.f90:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2019年12月27日(金) 18時09分32秒作成 - ss_gtq / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

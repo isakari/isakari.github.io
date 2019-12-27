@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ss_gtq: インターフェース module_io::run_cmd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ss_gtq
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacemodule__io.html">module_io</a></li><li class="navelem"><a class="el" href="interfacemodule__io_1_1run__cmd.html">run_cmd</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="interfacemodule__io_1_1run__cmd-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle">
+<div class="title">インターフェース module_io::run_cmd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9278676a44d7c20de05c20bbdd1d2542"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemodule__io_1_1run__cmd.html#a9278676a44d7c20de05c20bbdd1d2542">run_cmd</a> (comm)</td></tr>
+<tr class="separator:a9278676a44d7c20de05c20bbdd1d2542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock">
+<p class="definition"> <a class="el" href="module__io_8f90_source.html">module_io.f90</a> の <a class="el" href="module__io_8f90_source.html#l00006">6</a> 行目に定義があります。</p>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a9278676a44d7c20de05c20bbdd1d2542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9278676a44d7c20de05c20bbdd1d2542">&#9670;&nbsp;</a></span>run_cmd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine module_io::run_cmd::run_cmd </td>
+          <td>(</td>
+          <td class="paramtype">character(c_char)&#160;</td>
+          <td class="paramname"><em>comm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="module__io_8f90_source.html">module_io.f90</a> の <a class="el" href="module__io_8f90_source.html#l00007">7</a> 行目に定義があります。</p>
+
+<p class="reference">参照先 <a class="el" href="module__io_8f90_source.html#l00122">module_io::load_config_c()</a>, <a class="el" href="module__io_8f90_source.html#l00072">module_io::load_config_i()</a>, <a class="el" href="module__io_8f90_source.html#l00172">module_io::load_config_l()</a>, <a class="el" href="module__io_8f90_source.html#l00023">module_io::load_config_r()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;       <span class="keywordtype">use </span>iso_c_binding</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;       <span class="keywordtype">character(c_char)</span> :: comm</div></div><!-- fragment --><div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacemodule__io_1_1run__cmd_a9278676a44d7c20de05c20bbdd1d2542_cgraph.png" border="0" usemap="#interfacemodule__io_1_1run__cmd_a9278676a44d7c20de05c20bbdd1d2542_cgraph" alt=""/></div>
+<map name="interfacemodule__io_1_1run__cmd_a9278676a44d7c20de05c20bbdd1d2542_cgraph" id="interfacemodule__io_1_1run__cmd_a9278676a44d7c20de05c20bbdd1d2542_cgraph">
+<area shape="rect" id="node2" href="namespacemodule__io.html#ac8c979160008bc522f48d209d10893aa" title="module_io::load_config_c" alt="" coords="192,5,361,32"/>
+<area shape="rect" id="node3" href="namespacemodule__io.html#a149fb92418e1c2f89c21dfe8fa134be7" title="module_io::load_config_i" alt="" coords="194,56,359,83"/>
+<area shape="rect" id="node4" href="namespacemodule__io.html#a9570e361744cc21883155310b4fc573b" title="module_io::load_config_l" alt="" coords="194,107,359,133"/>
+<area shape="rect" id="node5" href="namespacemodule__io.html#ada70d03bf19fe36b3730c13d57cb41f3" title="module_io::load_config_r" alt="" coords="193,157,360,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>次のファイルからインターフェースの詳解が抽出されました:<ul>
+<li><a class="el" href="module__io_8f90_source.html">module_io.f90</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2019年12月27日(金) 18時09分33秒作成 - ss_gtq / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

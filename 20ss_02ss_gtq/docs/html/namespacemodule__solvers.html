@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ss_gtq: module_solversモジュール</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">ss_gtq
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'検索');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数/サブルーチン</a>  </div>
+  <div class="headertitle">
+<div class="title">module_solversモジュール</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>solvers  
+<a href="#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+関数/サブルーチン</h2></td></tr>
+<tr class="memitem:aaca10af7e1200e6d68d52a8560786b94"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__solvers.html#aaca10af7e1200e6d68d52a8560786b94">lapack_lu</a> (n, a, ipiv)</td></tr>
+<tr class="memdesc:aaca10af7e1200e6d68d52a8560786b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrap zgetrf  <a href="#aaca10af7e1200e6d68d52a8560786b94">[詳解]</a><br /></td></tr>
+<tr class="separator:aaca10af7e1200e6d68d52a8560786b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d16eeacebe88bd81014b0ea7a06cf9"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__solvers.html#a81d16eeacebe88bd81014b0ea7a06cf9">lapack_solve</a> (n, nrhs, a, ipiv, b)</td></tr>
+<tr class="memdesc:a81d16eeacebe88bd81014b0ea7a06cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrap zgetrs  <a href="#a81d16eeacebe88bd81014b0ea7a06cf9">[詳解]</a><br /></td></tr>
+<tr class="separator:a81d16eeacebe88bd81014b0ea7a06cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81af26fdc007dea0b7e0db5f5d7eda27"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__solvers.html#a81af26fdc007dea0b7e0db5f5d7eda27">lapack_lu_and_solve</a> (n, nrhs, a, b)</td></tr>
+<tr class="memdesc:a81af26fdc007dea0b7e0db5f5d7eda27"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrap zgesv  <a href="#a81af26fdc007dea0b7e0db5f5d7eda27">[詳解]</a><br /></td></tr>
+<tr class="separator:a81af26fdc007dea0b7e0db5f5d7eda27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a371573367ebc1a7022d46a6568c97c0e"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodule__solvers.html#a371573367ebc1a7022d46a6568c97c0e">solve_generalized_eigen_x_2</a> (n, A, B, alphas, betas, eigenvecs_right, info)</td></tr>
+<tr class="memdesc:a371573367ebc1a7022d46a6568c97c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve generalised eigenvalue problem  <a href="#a371573367ebc1a7022d46a6568c97c0e">[詳解]</a><br /></td></tr>
+<tr class="separator:a371573367ebc1a7022d46a6568c97c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p>solvers </p>
+</div><h2 class="groupheader">関数/サブルーチン詳解</h2>
+<a id="aaca10af7e1200e6d68d52a8560786b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca10af7e1200e6d68d52a8560786b94">&#9670;&nbsp;</a></span>lapack_lu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine, public module_solvers::lapack_lu </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(in)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, dimension(n), intent(out)&#160;</td>
+          <td class="paramname"><em>ipiv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>wrap zgetrf </p>
+
+<p class="definition"> <a class="el" href="module__solvers_8f90_source.html">module_solvers.f90</a> の <a class="el" href="module__solvers_8f90_source.html#l00015">15</a> 行目に定義があります。</p>
+
+<p class="reference">参照元 <a class="el" href="module__ssm_8f90_source.html#l00217">module_ssm::eigensolver_ssm()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(in)</span> :: n</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(in)</span> :: a(n,n)</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(out)</span> :: ipiv(n)</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">integer</span> :: info</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">call </span>zgetrf(n,n,a,n,ipiv,info)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(info.ne.0) stop <span class="stringliteral">&quot;zgetrf error&quot;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div></div><!-- fragment --><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacemodule__solvers_aaca10af7e1200e6d68d52a8560786b94_icgraph.png" border="0" usemap="#namespacemodule__solvers_aaca10af7e1200e6d68d52a8560786b94_icgraph" alt=""/></div>
+<map name="namespacemodule__solvers_aaca10af7e1200e6d68d52a8560786b94_icgraph" id="namespacemodule__solvers_aaca10af7e1200e6d68d52a8560786b94_icgraph">
+<area shape="rect" id="node2" href="namespacemodule__ssm.html#af356c3d55d52fa57ac07827f4669c904" title="eigensolver " alt="" coords="229,5,432,32"/>
+<area shape="rect" id="node3" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d" title="main " alt="" coords="480,5,531,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a81af26fdc007dea0b7e0db5f5d7eda27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81af26fdc007dea0b7e0db5f5d7eda27">&#9670;&nbsp;</a></span>lapack_lu_and_solve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine, public module_solvers::lapack_lu_and_solve </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>nrhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(in)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,nrhs), intent(inout)&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>wrap zgesv </p>
+
+<p class="definition"> <a class="el" href="module__solvers_8f90_source.html">module_solvers.f90</a> の <a class="el" href="module__solvers_8f90_source.html#l00042">42</a> 行目に定義があります。</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(in)</span> :: n, nrhs</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(in)</span> :: a(n,n)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(inout)</span> :: b(n,nrhs)</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">integer</span> :: ipiv(n), info</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    </div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">call </span>zgesv(n, nrhs, a, n, ipiv, b, n, info)</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span>(info.ne.0) stop <span class="stringliteral">&quot;zgesv error&quot;</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a81d16eeacebe88bd81014b0ea7a06cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d16eeacebe88bd81014b0ea7a06cf9">&#9670;&nbsp;</a></span>lapack_solve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine, public module_solvers::lapack_solve </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>nrhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(in)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, dimension(n), intent(in)&#160;</td>
+          <td class="paramname"><em>ipiv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,nrhs), intent(inout)&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>wrap zgetrs </p>
+
+<p class="definition"> <a class="el" href="module__solvers_8f90_source.html">module_solvers.f90</a> の <a class="el" href="module__solvers_8f90_source.html#l00028">28</a> 行目に定義があります。</p>
+
+<p class="reference">参照元 <a class="el" href="module__ssm_8f90_source.html#l00217">module_ssm::eigensolver_ssm()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(in)</span> :: n, nrhs</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(in)</span> :: a(n,n)</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(in)</span> :: ipiv(n)</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(inout)</span> :: b(n,nrhs)</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">integer</span> :: info</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">call </span>zgetrs(<span class="stringliteral">&quot;N&quot;</span>,n,nrhs,a,n,ipiv,b,n,info)</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span>(info.ne.0) stop <span class="stringliteral">&quot;zgetrs error&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div></div><!-- fragment --><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacemodule__solvers_a81d16eeacebe88bd81014b0ea7a06cf9_icgraph.png" border="0" usemap="#namespacemodule__solvers_a81d16eeacebe88bd81014b0ea7a06cf9_icgraph" alt=""/></div>
+<map name="namespacemodule__solvers_a81d16eeacebe88bd81014b0ea7a06cf9_icgraph" id="namespacemodule__solvers_a81d16eeacebe88bd81014b0ea7a06cf9_icgraph">
+<area shape="rect" id="node2" href="namespacemodule__ssm.html#af356c3d55d52fa57ac07827f4669c904" title="eigensolver " alt="" coords="212,13,415,39"/>
+<area shape="rect" id="node3" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d" title="main " alt="" coords="463,13,513,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a371573367ebc1a7022d46a6568c97c0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371573367ebc1a7022d46a6568c97c0e">&#9670;&nbsp;</a></span>solve_generalized_eigen_x_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine, public module_solvers::solve_generalized_eigen_x_2 </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(in)&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(in)&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n), intent(out)&#160;</td>
+          <td class="paramname"><em>alphas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n), intent(out)&#160;</td>
+          <td class="paramname"><em>betas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(8), dimension(n,n), intent(out)&#160;</td>
+          <td class="paramname"><em>eigenvecs_right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(out)&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solve generalised eigenvalue problem </p>
+
+<p class="definition"> <a class="el" href="module__solvers_8f90_source.html">module_solvers.f90</a> の <a class="el" href="module__solvers_8f90_source.html#l00055">55</a> 行目に定義があります。</p>
+
+<p class="reference">参照元 <a class="el" href="module__ssm_8f90_source.html#l00217">module_ssm::eigensolver_ssm()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(in)</span> :: n</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(in)</span> :: a(n,n), b(n,n)</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(out)</span> :: alphas(n), betas(n)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">intent(out)</span> :: eigenvecs_right(n,n)</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">integer</span>,<span class="keywordtype">intent(out)</span> :: info</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">allocatable</span> :: b_(:,:), c(:,:)</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">integer</span> :: ipiv(n)</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">complex(8)</span> :: not_referenced(1)</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">complex(8)</span>,<span class="keywordtype">allocatable</span> :: work(:)</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">integer</span> :: lwork</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">real(8)</span>,<span class="keywordtype">allocatable</span> :: rwork(:)</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">allocate</span>(b_(n,n), c(n,n))</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    b_(:,:) = b(:,:)</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">! C=B^{-1}Aを計算</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    c = a</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">call </span>zgesv(n,n,b_,n,ipiv,c,n,info)</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">! Cの固有値を計算</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    lwork = 3*max(1,2*n)</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">allocate</span>(rwork(2*n))</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">allocate</span>(work(lwork))</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keyword">call </span>zgeev(<span class="stringliteral">&quot;N&quot;</span>,<span class="stringliteral">&quot;V&quot;</span>,n,c,n,alphas,not_referenced,n,eigenvecs_right,n,work,lwork,rwork,info)</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span>(info /= 0) <span class="keywordflow">then</span></div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;       stop <span class="stringliteral">&quot;zgeev failed&quot;</span></div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordflow">    end if</span></div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    betas = 1.d0</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">deallocate</span>(b_,c,rwork,work)</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    </div></div><!-- fragment --><div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacemodule__solvers_a371573367ebc1a7022d46a6568c97c0e_icgraph.png" border="0" usemap="#namespacemodule__solvers_a371573367ebc1a7022d46a6568c97c0e_icgraph" alt=""/></div>
+<map name="namespacemodule__solvers_a371573367ebc1a7022d46a6568c97c0e_icgraph" id="namespacemodule__solvers_a371573367ebc1a7022d46a6568c97c0e_icgraph">
+<area shape="rect" id="node2" href="namespacemodule__ssm.html#af356c3d55d52fa57ac07827f4669c904" title="eigensolver " alt="" coords="215,13,417,39"/>
+<area shape="rect" id="node3" href="main_8f90.html#a8ec2266d83cd6c0b762cbcbc92c0af3d" title="main " alt="" coords="465,13,516,39"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+2019年12月27日(金) 18時09分33秒作成 - ss_gtq / 構成:  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
